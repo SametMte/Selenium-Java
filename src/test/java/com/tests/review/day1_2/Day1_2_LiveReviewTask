@@ -1,0 +1,14 @@
+day1,2 Live class practices:
+
+ // TC#1: Navigations and Get methods Practice
+
+      // 1. Open a chrome browser
+      // 2. Go to: https://practice.expandtesting.com/
+      // 3. Click on "Automation Training"
+      // 4. Verify url contains "formations"
+      // 5. Navigate back, forward and refresh
+      // 6. Click on "Practice Site"
+      // 7. Verify title is "Automation Testing Practice Website for UI and API"
+
+
+--------------------
