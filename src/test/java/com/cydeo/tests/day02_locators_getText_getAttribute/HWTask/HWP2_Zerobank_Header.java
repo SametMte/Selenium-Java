@@ -1,4 +1,4 @@
-package com.tests.day02_locators_getText_getAttribute.HWTask;
+package com.cydeo.tests.day02_locators_getText_getAttribute.HWTask;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
