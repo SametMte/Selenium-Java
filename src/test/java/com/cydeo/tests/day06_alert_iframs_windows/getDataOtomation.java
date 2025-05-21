@@ -67,14 +67,16 @@ public class getDataOtomation {
 
         //select month
         Select monthSelecter=new Select(driver.findElement(By.xpath("//select[@class='ui-datepicker-month']")));
-        monthSelecter.selectByIndex(0);
+        monthSelecter.selectByIndex(4);
+
         // TARİHTEKİ AYI DEĞİŞİR 0-11 ARASI DEĞER GİRİLİR 0-> 1. AYA, 11-> 12. AYA DENK GELİR
         // ÖRNEK monthSelecter.selectByIndex(0); OCAK AYI DATASI
         // ÖRNEK monthSelecter.selectByIndex(1); ŞUBAT AYI DATASI
 
         //select year
         Select yearSelecter=new Select(driver.findElement(By.xpath("//select[@class='ui-datepicker-year']")));
-        yearSelecter.selectByVisibleText("2000");
+        yearSelecter.selectByVisibleText("2003");
+
         // TARİHTEKİ YILI DEĞİŞİR HANGİ YILA BAKILACAKSA O YIL GİRİLİR
         // ÖRNEK yearSelecter.selectByVisibleText("2000"); 2000 YILININ DATASI
         // ÖRNEK yearSelecter.selectByVisibleText("2001"); 2001 YILININ DATASI
