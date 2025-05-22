@@ -37,7 +37,7 @@ public class T5_dropdown_intro {
 
     @AfterMethod
     public void tearDown(){
-        driver.quit();
+        //driver.quit();
     }
 
     @Test
